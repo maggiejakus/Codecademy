@@ -11,3 +11,14 @@ const totalRoute = {
     leaveAt: ['7:30', '8:00', '9:00'],
     getSnack: ['Dunkin\'', 'Starbucks', 'Matto']
 }
+
+
+// store route in an array
+let schoolRoute = []
+
+// iterate through transit, time, snack
+
+for(let choice in totalRoute){
+    let ranNum = Math.floor(Math.random()*totalRoute[choice].length)
+    console.log(ranNum)
+}
